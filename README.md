@@ -13,6 +13,6 @@ Spotify Adblocker also works when the application is minimized to the toolbar.
 
 ★ **Method one** : You can [CLICK HERE](https://github.com/mehmetguduk/Spotify-Adblocker/releases/tag/Exe) for exe version of application.
 
-★ **Method two** : You can download all py files (MAIN.py, images.py, interface.py) in same folder and convert MAIN.py to exe with any py to exe converter. Then you can run that exe to get access.
+★ **Method two** : You can download all files (MAIN.py, images.py, interface.py, database_functions.py, spotifyadblockericon.ico) in same folder and convert MAIN.py to exe with any py to exe converter. Then you can run that exe to get access.
 
-★ **Method three** : You can download all py files (MAIN.py, images.py, interface.py) in same folder and run MAIN.py.
+★ **Method three** : You can download all files (MAIN.py, images.py, interface.py, database_functions.py, spotifyadblockericon.ico) in same folder and run MAIN.py.
