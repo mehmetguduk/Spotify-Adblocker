@@ -1,0 +1,9 @@
+You can access Spotify-Adblocker.exe from the link below.
+
+https://github.com/mehmetguduk/Shutdown-Timer/releases/tag/Exe
+or
+https://github.com/mehmetguduk/Shutdown-Timer/releases/download/Exe/Shutdown.Timer.exe
+
+Application is not registered to antivirus programs so it can be detected as a virus but its not. If you see this as a problem, 
+-You can directly run MAIN.py or
+-You can convert MAIN.py to exe with any converter and run that exe file.
