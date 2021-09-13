@@ -1,1 +1,16 @@
+![spotifyadblockerbanner](https://user-images.githubusercontent.com/85064536/133149924-e6949257-3aa5-4564-9977-f96fe4640967.jpg)
+
+**Spotify Adblocker** is an application that has the feature to mute Spotify when ads come up.
+
+Inside the application, you can see the currently playing song on Spotify, when does application blocked an ad last time, and how many ad has blocked in total. With the checkbox next to "Start Spotify too while starting Spotify Adblocker next time" label, you can directly start Spotify when you run Spotify Adblocker again.
+
 ![app](https://user-images.githubusercontent.com/85064536/133147556-633a220d-d394-48c1-98b7-6f33a1dd250a.gif)
+
+
+![howdoiruntheapplication](https://user-images.githubusercontent.com/85064536/133149927-78b1eae3-c6d3-49f2-ab7e-8002bdf94361.jpg)
+
+★ **Method one** : You can [CLICK HERE](https://github.com/mehmetguduk/Spotify-Adblocker/releases/tag/Exe) for exe version of application.
+
+★ **Method two** : You can download all py files (MAIN.py, images.py, interface.py) in same folder and convert MAIN.py to exe with any py to exe converter. Then you can run that exe to get access.
+
+★ **Method three** : You can download all py files (MAIN.py, images.py, interface.py) in same folder and run MAIN.py.
