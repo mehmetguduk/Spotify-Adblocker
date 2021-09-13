@@ -2,7 +2,9 @@
 
 **Spotify Adblocker** is an application that has the feature to mute Spotify when ads come up.
 
-Inside the application, you can see the currently playing song on Spotify, when does application blocked an ad last time, and how many ad has blocked in total. With the checkbox next to "Start Spotify too while starting Spotify Adblocker next time" label, you can directly start Spotify when you run Spotify Adblocker again.
+Inside the application, you can see the currently playing song on Spotify, when does application blocked an ad last time, and how many ad has blocked in total. With the checkbox next to "Start Spotify too while starting Spotify Adblocker next time" label, you can directly start Spotify when you run Spotify Adblocker again. 
+
+Spotify Adblocker also works when the application is minimized to the toolbar.
 
 ![app](https://user-images.githubusercontent.com/85064536/133147556-633a220d-d394-48c1-98b7-6f33a1dd250a.gif)
 
