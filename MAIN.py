@@ -1,3 +1,7 @@
+# © Designed and Developed by Mehmet Güdük.
+# © Licensed with GPL-3.0 License, Author is Mehmet Güdük.
+
+
 import time
 import sys
 import os
@@ -8,6 +12,13 @@ from PyQt5.QtWidgets import QMenu, QAction, qApp, QSystemTrayIcon
 from PyQt5.QtCore import QThread, pyqtSignal
 from interface import Ui_MainWindow
 from PyQt5.QtGui import QIcon
+
+def resource_path(relative_path):
+    try:
+        base_path = sys._MEIPASS
+    except Exception:
+        base_path = os.path.abspath(".")
+    return os.path.join(base_path, relative_path)
 
 class Blocker(QThread):
     block = pyqtSignal()
@@ -88,14 +99,6 @@ class Blocker(QThread):
         return songname, artist
 
 
-def resource_path(relative_path):
-    try:
-        base_path = sys._MEIPASS
-    except Exception:
-        base_path = os.path.abspath(".")
-    return os.path.join(base_path, relative_path)
-
-Logo = resource_path("spotifyadblockericon.ico")
 
 class myApp(QtWidgets.QMainWindow):
 
@@ -117,13 +120,16 @@ class myApp(QtWidgets.QMainWindow):
 
         if DB_CHECKBOX() == "CHECKED":
             self.ui.checkbox.setChecked(True)
-            spotify_location = str(os.getenv('APPDATA')) + "/Spotify/Spotify.exe"
-            os.startfile(spotify_location)
+            try:
+                spotify_location = str(os.getenv('APPDATA')) + "/Spotify/Spotify.exe"
+                os.startfile(spotify_location)
+            except:
+                pass
         else:
             self.ui.checkbox.setChecked(False)
     
         self.ui.combobox.setHidden(1)
-        
+        Logo = resource_path("adblocker.ico")
         self.tray_icon = QSystemTrayIcon(self)
         self.icon = QIcon(Logo)
         self.tray_icon.setIcon(self.icon)  
