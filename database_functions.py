@@ -1,3 +1,7 @@
+# © Designed and Developed by Mehmet Güdük.
+# © Licensed with GPL-3.0 License, Author is Mehmet Güdük.
+
+
 import sqlite3
 import os
 from datetime import datetime
@@ -16,7 +20,6 @@ def DB_CONNECT():
     global db_cursor
     db_connection = sqlite3.connect(db_location)
     db_cursor = db_connection.cursor()
-
 
 def DB_DISCONNECT():
     db_connection.commit()
