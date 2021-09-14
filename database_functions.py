@@ -2,14 +2,21 @@ import sqlite3
 import os
 from datetime import datetime
 
-spotify_folder_location = str(os.getenv('APPDATA')) + "/Spotify/"
-database_location = spotify_folder_location + "/spotify_addblocker.db"
+users_documents_location = os.path.expanduser('~\Documents')
+location = users_documents_location + "\SpotifyAdblocker"
 
+try:
+    os.makedirs(location)
+except:
+    pass
+
+db_location = location + "\spotifyadblocker_database.db"
 def DB_CONNECT():
     global db_connection
     global db_cursor
-    db_connection = sqlite3.connect(database_location)
+    db_connection = sqlite3.connect(db_location)
     db_cursor = db_connection.cursor()
+
 
 def DB_DISCONNECT():
     db_connection.commit()
