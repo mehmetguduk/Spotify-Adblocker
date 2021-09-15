@@ -1,3 +1,4 @@
-requests==2.26.0
-beautifulsoup4==4.10.0
+pywin32==301
+pycaw==20181226
 PyQt5==5.15.4
+win32gui==221.6
