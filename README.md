@@ -22,7 +22,7 @@ In order to choose Method two or Method three you should install required module
 
 ```pip install -r requirements.txt```
 
-Requirements :
+## Requirements
 
 ● Windows operating system
 
