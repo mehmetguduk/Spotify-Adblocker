@@ -14,6 +14,26 @@ Spotify Adblocker also works when the application is minimized to the toolbar.
 
 ★ **Method one** : You can [CLICK HERE](https://github.com/mehmetguduk/Spotify-Adblocker/releases/tag/Exe) for exe version of application.
 
-★ **Method two** : You can download all files (MAIN.py, images.py, interface.py, database_functions.py, adblocker.ico) in same folder and convert MAIN.py to exe with any py to exe converter. Then you can run that exe to get access.
+★ **Method two** : You can download all files (MAIN.py, images.py, interface.py, database_functions.py, adblocker.ico, requirements.txt) in same folder and convert MAIN.py to exe with any py to exe converter. Then you can run that exe to get access.
 
-★ **Method three** : You can download all files (MAIN.py, images.py, interface.py, database_functions.py, adblocker.ico) in same folder and run MAIN.py.
+★ **Method three** : You can download all files (MAIN.py, images.py, interface.py, database_functions.py, adblocker.ico, requirements.txt) in same folder and run MAIN.py.
+
+In order to choose Method two or Method three you should install required modules that project use with the command below.
+
+```pip install -r requirements.txt```
+
+Requirements :
+
+● Windows operating system
+
+● Python 3
+
+● Python pip
+
+● Python Module : PyQt5==5.15.4
+
+● Python Module : pywin32==301
+
+● Python Module : pycaw==20181226
+
+● Python Module : win32gui==221.6
