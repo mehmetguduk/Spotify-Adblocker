@@ -24,16 +24,16 @@ In order to choose Method two or Method three you should install required module
 
 ## Requirements
 
-● Windows operating system
+- Windows operating system
 
-● Python 3
+- Python 3
 
-● Python pip
+- Python pip
 
-● Python Module : PyQt5==5.15.4
+- Python Module : PyQt5==5.15.4
 
-● Python Module : pywin32==301
+- Python Module : pywin32==301
 
-● Python Module : pycaw==20181226
+- Python Module : pycaw==20181226
 
-● Python Module : win32gui==221.6
+- Python Module : win32gui==221.6
